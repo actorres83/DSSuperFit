@@ -5,6 +5,7 @@
     --color-blue: #222374;
     --color-white: #ffffff;
     --color-black: #000000;
+    --color-gray: #cccccc;
 }
 
 * {
@@ -56,6 +57,39 @@ nav h1 {
 
 #space {
     background-color: var(--color-blue);
+    padding-bottom: 20px;
+}
+
+#space h2 {
+    color: var(--color-white);
+    font-size: 32px;
+    padding: 20px 0;
+}
+
+.space-card {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.space-card-description {
+    background-color: var(--color-gray);
+    border-radius: 8px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.space-card-description h3 {
+    font-size: 20px;
+    color: var(--color-black);
+    margin-bottom: 20px;
+}
+
+.space-card-description p {
+    font-size: 14px;
+    color: var(--color-black);
 }
 
 #modalities {
