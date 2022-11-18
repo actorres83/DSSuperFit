@@ -96,7 +96,42 @@ nav h1 {
     background-color: var(--color-white);
 }
 
+#modalities h2 {
+    color: var(--color-red);
+    font-size: 32px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+.modalities-card {
+    border-radius: 8px;
+    height: 106px;
+    margin-bottom: 20px;
+}
+
+.modalities-card-description {
+    background-color: var(--color-blue);
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.modalities-card-description h3 {
+    color: var(--color-white);
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.modalities-card-description p {
+    color: var(--color-gray);
+    font-size: 14px;
+    margin-top: 10px;
+}
+
 footer {
     background-color: var(--color-black);
     color: var(--color-white);
+}
+
+footer img {
+    width: 30px;
 }
