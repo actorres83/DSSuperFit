@@ -130,8 +130,26 @@ nav h1 {
 footer {
     background-color: var(--color-black);
     color: var(--color-white);
+    font-size: 14px;
+    padding: 60px;
 }
 
 footer img {
     width: 30px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.footer-content {
+    text-align: center;
+}
+
+#social-media {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#address {
+    margin-top: 30px;
 }
